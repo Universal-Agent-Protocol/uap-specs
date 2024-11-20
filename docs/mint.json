@@ -1,0 +1,25 @@
+{
+  "name": "Universal Agent Protocol (UAP)",
+  "logo": {
+    "light": "/assets/logo.svg",
+    "dark": "/assets/logo-dark.svg",
+    "href": "https://localtrain.ai"
+  },
+  "favicon": "/assets/icon.svg",
+  "colors": {
+    "primary": "#2AB673",
+    "light": "#55D799",
+    "dark": "#117866"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/Universal-Agent-Protocol/uap-specs"
+  }
+}
