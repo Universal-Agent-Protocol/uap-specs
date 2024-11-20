@@ -1,4 +1,4 @@
-# **Universal Agent Protocols (UAP) for Planet-Scale Multi-Agent Systems**
+# **Universal Agent Protocols (UAP) for Distributed Multi-Agent Systems**
 
 **Abstract**
 
