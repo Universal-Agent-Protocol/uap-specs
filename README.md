@@ -1,3 +1,5 @@
+![UAP: Universal Agent Protocol](/assets/uap-header.png)
+
 # **Universal Agent Protocols (UAP) for Distributed Multi-Agent Systems**
 
 **Abstract**
