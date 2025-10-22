@@ -10,13 +10,13 @@ import { AgentRegistration } from '../core/types.js';
 const UAP_SERVICE_TYPE = 'uap-agent';
 
 export class MDNSDiscovery extends EventEmitter {
-  private bonjour: ReturnType<typeof Bonjour>;
+  private bonjour: InstanceType<typeof Bonjour>;
   private browser: any;
   private publisher: any;
 
   constructor() {
     super();
-    this.bonjour = Bonjour();
+    this.bonjour = new Bonjour();
   }
 
   /**
