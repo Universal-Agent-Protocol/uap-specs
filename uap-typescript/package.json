@@ -1,0 +1,37 @@
+{
+  "name": "@uap/protocol",
+  "version": "0.1.0",
+  "description": "Universal Agent Protocol - TypeScript Implementation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "example:agent": "ts-node examples/simple-agent.ts",
+    "example:client": "ts-node examples/client-example.ts",
+    "example:mcp-bridge": "ts-node examples/mcp-bridge.ts"
+  },
+  "keywords": [
+    "uap",
+    "agent",
+    "protocol",
+    "mcp",
+    "discovery",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4",
+    "bonjour-service": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
