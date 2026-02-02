@@ -20,5 +20,8 @@
     "resource-sharing",
     "family-hub",
     "shared"
-  ]
+  ],
+  "dependencies": {
+    "localtunnel": "^2.0.2"
+  }
 }
