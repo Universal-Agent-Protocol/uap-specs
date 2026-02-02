@@ -1,0 +1,24 @@
+{
+  "name": "@uap/apps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:directory": "cd directory && npm run dev",
+    "dev:scheduler": "cd scheduler && npm run dev",
+    "dev:marketplace": "cd marketplace && npm run dev",
+    "dev:coordinator": "cd coordinator && npm run dev",
+    "dev:resources": "cd resource-sharing && npm run dev",
+    "dev:family": "cd family-hub && npm run dev",
+    "build:all": "npm run build --workspaces",
+    "install:all": "npm install --workspaces"
+  },
+  "workspaces": [
+    "directory",
+    "scheduler",
+    "marketplace",
+    "coordinator",
+    "resource-sharing",
+    "family-hub",
+    "shared"
+  ]
+}
