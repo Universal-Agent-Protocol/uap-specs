@@ -12,10 +12,10 @@ import {
   UACPMessage,
   Tool,
   ExecutionContext,
-} from '../core/types.js';
-import { MessageBuilder } from '../core/message.js';
-import { MDNSDiscovery } from '../discovery/mdns.js';
-import { ToolNotFoundError } from '../core/errors.js';
+} from '../core/types';
+import { MessageBuilder } from '../core/message';
+import { MDNSDiscovery } from '../discovery/mdns';
+import { ToolNotFoundError } from '../core/errors';
 
 export class UAPAgent extends EventEmitter {
   private agentId: string;
@@ -279,13 +279,13 @@ export class UAPAgent extends EventEmitter {
   }
 
   /**
-   * Start heartbeat to update load and status
+   * Start heartbeat to update load metrics
+   * Note: mDNS is published once on start. Load updates are served
+   * via the getStatus WebSocket action, not by re-publishing mDNS.
    */
   private startHeartbeat(): void {
     this.heartbeatInterval = setInterval(() => {
       this.updateLoad();
-      // Re-publish with updated load
-      this.publishOnMDNS();
     }, 5000); // Every 5 seconds
   }
 

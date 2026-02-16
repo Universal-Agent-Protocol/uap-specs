@@ -5,19 +5,19 @@
  */
 
 // Core types
-export * from './core/types.js';
-export * from './core/errors.js';
-export { MessageBuilder, MessageValidator } from './core/message.js';
+export * from './core/types';
+export * from './core/errors';
+export { MessageBuilder, MessageValidator } from './core/message';
 
 // Discovery
-export { AgentRegistry } from './discovery/registry.js';
-export { MDNSDiscovery } from './discovery/mdns.js';
+export { AgentRegistry } from './discovery/registry';
+export { MDNSDiscovery } from './discovery/mdns';
 
 // Server (Agent)
-export { UAPAgent } from './server/uap-agent.js';
+export { UAPAgent } from './server/uap-agent';
 
 // Client
-export { UAPClient } from './client/uap-client.js';
+export { UAPClient } from './client/uap-client';
 
 // MCP Compatibility
-export { MCPAdapter, createUAPAgentFromMCP } from './mcp/adapter.js';
+export { MCPAdapter, createUAPAgentFromMCP } from './mcp/adapter';

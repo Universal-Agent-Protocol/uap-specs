@@ -5,7 +5,7 @@
  * and interacts with agents on the network.
  */
 
-import { UAPClient } from '../src/index.js';
+import { UAPClient } from '../src/index';
 
 async function main() {
   // Create UAP client

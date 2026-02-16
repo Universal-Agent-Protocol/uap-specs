@@ -3,7 +3,7 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
-import { UACPMessage, UACPHeader, MessageType, Priority } from './types.js';
+import { UACPMessage, UACPHeader, MessageType, Priority } from './types';
 
 export class MessageBuilder {
   /**

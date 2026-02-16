@@ -3,7 +3,7 @@
  */
 
 import { EventEmitter } from 'events';
-import { AgentRegistration, DiscoveryRequest, DiscoveryResponse } from '../core/types.js';
+import { AgentRegistration, DiscoveryRequest, DiscoveryResponse } from '../core/types';
 
 export class AgentRegistry extends EventEmitter {
   private agents: Map<string, AgentRegistration> = new Map();

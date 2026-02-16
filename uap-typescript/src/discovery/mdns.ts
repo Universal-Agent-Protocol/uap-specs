@@ -5,7 +5,7 @@
 
 import Bonjour from 'bonjour-service';
 import { EventEmitter } from 'events';
-import { AgentRegistration } from '../core/types.js';
+import { AgentRegistration } from '../core/types';
 
 const UAP_SERVICE_TYPE = 'uap-agent';
 

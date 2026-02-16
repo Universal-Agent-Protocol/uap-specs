@@ -10,11 +10,11 @@ import {
   AgentRegistration,
   DiscoveryRequest,
   UACPMessage,
-} from '../core/types.js';
-import { MessageBuilder } from '../core/message.js';
-import { AgentRegistry } from '../discovery/registry.js';
-import { MDNSDiscovery } from '../discovery/mdns.js';
-import { AgentNotFoundError, AgentUnavailableError, TimeoutError } from '../core/errors.js';
+} from '../core/types';
+import { MessageBuilder } from '../core/message';
+import { AgentRegistry } from '../discovery/registry';
+import { MDNSDiscovery } from '../discovery/mdns';
+import { AgentNotFoundError, AgentUnavailableError, TimeoutError } from '../core/errors';
 
 export class UAPClient extends EventEmitter {
   private clientId: string;

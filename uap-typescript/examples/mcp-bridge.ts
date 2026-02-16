@@ -5,7 +5,7 @@
  * making it discoverable and usable via UAP protocol.
  */
 
-import { createUAPAgentFromMCP } from '../src/index.js';
+import { createUAPAgentFromMCP } from '../src/index';
 
 async function main() {
   console.log('\n===========================================');

@@ -5,7 +5,7 @@
  * a simple calculator capability.
  */
 
-import { UAPAgent } from '../src/index.js';
+import { UAPAgent } from '../src/index';
 
 async function main() {
   // Create a simple calculator agent

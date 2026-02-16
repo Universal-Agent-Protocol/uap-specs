@@ -5,8 +5,8 @@
 
 import { spawn, ChildProcess } from 'child_process';
 import { EventEmitter } from 'events';
-import { MCPServerConfig, Tool, AgentConfig, MCPTool } from '../core/types.js';
-import { UAPAgent } from '../server/uap-agent.js';
+import { MCPServerConfig, Tool, AgentConfig, MCPTool } from '../core/types';
+import { UAPAgent } from '../server/uap-agent';
 
 interface MCPMessage {
   jsonrpc: '2.0';
